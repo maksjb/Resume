@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles\styles.css">
+    <title>Resume</title>
+    <style>
+        #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        #container > div {
+                background-color: green;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }        
+    </style>
+</head>
+<body id="contaner">
+<!--Main-->
+<div class="main">
+    <!--Main content-->
+    <div class="main_content">
+        <!--About user-->
+        <div class="about">
+            <h2 class="about_positon">Front-End Developer</h2>
+            <h1 class="about_name">Maksym Kuka</h1>
+            <p class="about_discription">A young, promising man. I easily master everything new. I rejoice in new knowledge, new books, new stories.</p>
+            
+        </div>
+        <!--Project-->
+    <div class="projects">
+        <h3 class="title">Projects</h3>
+        <ol class="projects_list"> 
+            <li class="project_item">
+                <span class="project">
+                <a href="https://hellenglish.goit.global/" class="project_link">https://hellenglish.goit.global/</a>
+                <img src="img/Vector 1.png" alt="Vector">
+                <span class="project_bracker">[</span>  HTML5, CSS3 <span class="project_bracker">]</span>
+                </span>
+            </li>
+            <li class="project_item">
+                <span class="project">
+                    <a href="https://cryptohub.goit.global/" class="project_link">https://cryptohub.goit.global/</a>
+                <img src="img/Vector 2 (2).png" alt="vector" class="vector">
+                <span class="project_bracker">[</span> JavaScript <span class="project_bracker">]</span>
+                </span>
+            </li>
+            <li class="project_item">
+                <span class="project">
+                <a href="https://kidslike.goit.global/" class="project_link">https://kidslike.goit.global/</a>
+                <img src="img/Vector 3.png" alt="Vector">
+                <span class="project_bracker">[</span> React.js, Node.js <span class="project_bracker">]</span>
+                </span>
+            </li>
+        </ol>
+    </div>
+    <!--Work-->
+    <div class="work">
+        <h3 class="title">Work Experience</h3>
+        <!--Company 1-->
+        <div class="wi_width">
+            <h4 class="work_position">Sales Consultant<span class="organization"> Sportland</span></h4>
+            <p class="period">May 2011 - July 2011 <span class="line">|</span> Ukraine</p>
+            <ul class="work_list">
+                <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</li>
+                <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li class="work_list_item">Risus commodo viverra maecenas.</li>
+                <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+            </ul>
+
+        </div>
+        <!--Company 2-->
+        <div class="wi_width">
+            <h4 class="work_position">Bartender<span class="organization"> Superior Golf & Spa Resort</span></h4>
+            <p class="period">April 2012 - August 2014 <span class="line">|</span> Ukraine</p>
+            <ul class="work_list">
+                <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+                <li class="work_list_item">Quis ipsum suspendisse ultrices gravida</li>
+                <li class="work_list_item">Risus commodo viverra maecenas.</li>
+            </ul>
+        </div>
+        <!--Company 3-->
+        <div class="wi_width">
+            <h4 class="work_position">Grenade launcher<span class="organization"> War</span></h4>
+            <p class="period">October 2014 - July 2015 <span class="line">|</span> Ukraine, Donbas</p>
+            <ul class="work_list">
+                <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li class="work_list_item">Quis ipsum suspendisse ultrices gravida.</li>
+                <li class="work_list_item">Risus commodo viverra maecenas.</li>
+            </ul>       
+        
+        </div>
+        </div>
+        <!--Education-->
+        <div class="education">
+            <h3 class="title">Education</h3>
+            <ul class="secondnded">
+                <li class="work_list_item"><h4 class="ed_name">Kharkiv Radio-technical Сollege</h4></li>
+                    <h5>Information Technology</h5>
+                    <p class="period">September 2007 - June 2011 <span class="line">|</span> Ukraine</p>
+                <li class="work_list_item"><h4 class="ed_name">Kharkiv National University of Economics</h4></li>
+                    <h5>Information Technology</h5>
+                    <p class="period">September 2011 - June 2012 <span class="line">|</span> Ukraine</p>
+            </ul>
+        </div>
+ </div>
+    <!--Sidebar-->
+<aside class="sidebar" >
+    <img src="img/photo.jpg" alt="user photo" class="photo">
+    <!--Contacts-->
+    <div class="contacts">
+        <h3 class="sidebar_title">Contacts</h3>
+        <div>
+            <p>
+                <span class="contact_type">C:</span>
+                 <a href="tel:+380991351433" class="contact_link"> +38 099 135 14 33</a> 
+            </p> 
+            <p>
+                <span class="contact_type">E:</span>
+                 <a href="mailto:maksjb@gmail.com" class="contact_link"> maksjb@gmail.com</a> 
+            </p> 
+        </div>
+    </div>
+        <!--Tech skill-->
+    <div class="tech_skills">
+            <h3 class="sidebar_title">Tech Skills in future</h3>
+            <ul class="tech_skills_list">
+                <li class="tech_skills_item"><span class="tech_skills_text">HTML5</span> </li>
+                <li class="tech_skills_item"><span class="tech_skills_text">CSS3</span></li>
+                <li class="tech_skills_item"><span class="tech_skills_text">GIT</span></li>
+                <li class="tech_skills_item"><span class="tech_skills_text">WebPack</span></li>
+                <li class="tech_skills_item"><span class="tech_skills_text">JavaScript</span></li>
+                <li class="tech_skills_item"><span class="tech_skills_text">React.js</span></li>
+                <li class="tech_skills_item"><span class="tech_skills_text">Node.js</span></li>
+            </ul>
+    </div>
+        <!--Soft skills-->
+    <div class="soft_skills">
+        <h3 class="sidebar_title">Soft Skills</h3>
+        <ul class="soft_skills_list">
+            <li class="soft_skills_item"><span class="soft_skills_text">Scrum</span></li>
+            <li class="soft_skills_item"><span class="soft_skills_text">Agile</span></li>
+            <li class="soft_skills_item"><span class="soft_skills_text">GTD</span></li>
+            <li class="soft_skills_item"><span class="soft_skills_text">Teamwork</span></li>
+     </div>
+ 
+</aside>
+</div>
+</body>
+</html>
